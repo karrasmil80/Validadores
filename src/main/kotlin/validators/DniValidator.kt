@@ -9,7 +9,7 @@ class DniValidator {
 
         // Dni, 8 números 1 letra
         val regex = "^[0-9]{8}[A-Za-z]$".toRegex()
-        if(!regex.matches(Dni)) {
+        if(!regex.matches(dni.código)) {
             DniExceptions.ValidationException("El formato del Dni es incorrecto")
         }
 
