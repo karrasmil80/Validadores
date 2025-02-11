@@ -1,4 +1,5 @@
 package org.example.exceptions
 
-class DniExceptions {
+sealed class DniExceptions(mensaje: String) : Exception(mensaje) {
+    class ValidationException(mensaje: String) : DniExceptions(mensaje)
 }
