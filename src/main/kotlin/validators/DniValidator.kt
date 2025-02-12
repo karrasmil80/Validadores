@@ -64,4 +64,5 @@ class DniValidator {
             throw DniExceptions.ValidationException("La nacionalidad no puede estar en blanco")
         }
     }
+
 }
