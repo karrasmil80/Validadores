@@ -107,5 +107,4 @@ class DniValidatorTest {
         // expected
         assertEquals(expected, resultado, "Nacionalidad: correcta")
     }
-    
 }
