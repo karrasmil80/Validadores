@@ -5,7 +5,7 @@ import org.example.models.Dni
 import org.example.validators.DniValidator
 import java.time.LocalDate
 
-fun main() {
+fun main() { 
 
     // Prueba con Dni válido
     val dni = Dni (
